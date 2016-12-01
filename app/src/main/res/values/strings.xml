@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Settings Demo</string>
+    <string name="doughnut">Doughnut</string>
+    <string name="chocolate">Chocolate</string>
+    <string name="cheese">Cheese</string>
+    <string name="peach">Peach</string>
+    <string name="banana">Banana</string>
+    <string name="apache">Apache</string>
+    <string name="black_forest">Black Forest</string>
+
+</resources>

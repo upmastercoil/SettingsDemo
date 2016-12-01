@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="cakes">
+        <item>@string/doughnut</item>
+        <item>@string/chocolate</item>
+        <item>@string/cheese</item>
+        <item>@string/peach</item>
+        <item>@string/banana</item>
+        <item>@string/apache</item>
+        <item>@string/black_forest</item>
+    </string-array>
+
+</resources>

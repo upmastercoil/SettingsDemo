@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Define Behaviour">
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="is_happy"
+            android:summary="Should I Be Happy To See You?"
+            android:title="Am I Happy?" />
+
+        <ListPreference
+            android:defaultValue="@string/black_forest"
+            android:entries="@array/cakes"
+            android:entryValues="@array/cakes"
+            android:key="favourite_cake"
+            android:summary="@string/black_forest"
+            android:title="Select Favourite Cake" />
+
+    </PreferenceCategory>
+
+    <PreferenceScreen
+        android:key="edit_pref_sample"
+        android:summary="This will NOT Format your phone..."
+        android:title="Tell Us About Yourself">
+
+        <EditTextPreference
+            android:key="about_me"
+            android:title="Click ME!" />
+
+    </PreferenceScreen>
+
+</PreferenceScreen>
